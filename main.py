@@ -10,8 +10,7 @@ OS Requirement  :   Debian Raspbian
 Linux Version   :   Linux 4.19.0      
 Other Hardwares :   ADC 0804, LM35, max30100
 Session Year    :   Mar-Apr 2021
-Developed By    :   Kashish, Kanchan, Khyati, Nancy, Ojaswini
-Developed for   :   Oriental Institute of Science & Technology, Bhopal
+Developed By    :   Vartika Bhujbal
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 =================================== Start of Program ==================================
@@ -29,35 +28,11 @@ from twilio.rest import Client                          # for sms gateway
 variables & function for sms gateway 
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 '''
-#Ojaswini Panse
-account_sid="AC08ee9e38773ddcc965db378a71dc6967"	# Account Serial ID
-auth_token="855484507717aafe568ec3c8c3223496"		# Authentication token
-sender_no="+18157707381"				# Number provided by twilio
-receiver_no="+918770764317"				# Number verified by twilio
-
-# Nancy Bansal
-account_sid="ACb7b83be58baf782ffccd764485c7f567"	# Account Serial ID
-auth_token="5cf7dee18ea922695e30ee53da772cac"		# Authentication token
-sender_no="+13342268236"				# Number provided by twilio
-receiver_no="+919893875625"				# Number verified by twilio
-
-#Kashish agarwal
-account_sid="AC9d1f744032a24fab127aa1d7db96631f"	# Account Serial ID
-auth_token="f7e89bcf4e08b41ecf5fd1cb41055de3"		# Authentication token
-sender_no="+18312988290"				# Number provided by twilio
-receiver_no="+919926464640"				# Number verified by twilio
-
-#Kanchan Bhujbal
+#Vartika Bhujbal
 account_sid="AC9e29f71ab329df9d836544a4947df17d"	# Account Serial ID
 auth_token="1b704161ccb41ce32c52fd47493fb1e2"		# Authentication token
 sender_no="+14156399902"				# Number provided by twilio
 receiver_no="+917869836993"				# Number verified by twilio
-'''
-#Khyati Sengar
-account_sid="AC4a6d0e604ef0743f8c366345f6d1e466"	# Account Serial ID
-auth_token="288c61322b82c94a3d26bf67d9ff156e"		# Authentication token
-sender_no="+19293252911"				# Number provided by twilio
-receiver_no="+917400752978"				# Number verified by twilio
 
 msg="Welcome to the SPM System ... [get PData in 1min]" # Default message
                                                         
